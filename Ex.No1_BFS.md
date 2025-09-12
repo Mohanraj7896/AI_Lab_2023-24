@@ -44,5 +44,3 @@ Thus the breadth first search order was found sucessfully
 
 
 
-### Result:
-Thus the breadth first search order was found sucessfully.
