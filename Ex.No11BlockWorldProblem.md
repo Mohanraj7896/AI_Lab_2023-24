@@ -1,10 +1,10 @@
-Ex.No: 11 Planning – Block World Problem
-DATE: 13/09/2025
-REGISTER NUMBER : 212223060166
-AIM:
+## Ex.No: 11 Planning – Block World Problem
+## DATE: 13/09/2025
+## REGISTER NUMBER : 212223060166
+## AIM:
 To find the sequence of plan for Block word problem using PDDL
 
-Algorithm:
+## Algorithm:
 Step 1 : Start the program
 Step 2 : Create a domain for Block world Problem
 Step 3 : Create a domain by specifying predicates clear, on table, on, arm-empty, holding.
@@ -16,7 +16,7 @@ Step 8 : In stack action, Robot arm place the block on under block. Precondition
 Step 9 : Define a problem for block world problem.
 Step 10 : Obtain the plan for given problem.
 
-Program:
+## Program:
 (define (domain blocksworld)
 (:requirements :strips :equality)
 (:predicates (clear ?x)
@@ -50,8 +50,8 @@ Input
    (:objects a b)
    (:init (on-table a) (on-table b)  (clear a)  (clear b) (arm-empty))
    (:goal (and(onab))))
-Output/Plan:
+## Output/Plan:
 WhatsApp Image 2024-03-30 at 10 59 20_fcf5339d
 
-Result:
+## Result:
 Thus the plan was found for the initial and goal state of block world problem.
