@@ -11,7 +11,7 @@ Step 6:  Obtain the plan for given problem.<br>
 Step 7: Stop the program.<br> 
 ### Program:
 ```
-(define (domain monkey)	       
+(define (domain monkey)       
   (:requirements :strips)
    (:constants monkey box knife bananas glass waterfountain)
    (:predicates (location ?x)
